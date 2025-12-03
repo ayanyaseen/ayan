@@ -68,17 +68,196 @@ a:hover{
 .bars{
     display: none;
 } 
-@media screen and ( max-width:480 ){
-    .bars{
-        display: block;
-    }
-    .navtext{
-        display: none;
-    }
-    .nav{
-        width:30%
-    }
+
+.container {
+    display: flex;
+    width: 100%;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
+.container img{
+    width: 50%;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 100px;
+
+}
+.firstcontent {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    right: 20%;
+    gap: 5px;
+
+    align-items: first baseline;
+}
+.nikereact {
+    font-size:76px;
+    color: #ff8367;
+    font-family: "Bebas neue ", sans-serif ;
+}
+.nikereact h1 {
+    display: inline;
+
+}
+.infinity{
+    color: #363958;
+    font-family: "Bebas Neaue",sans-serif;
+    font-size: 76px;
+
+}
+.lorem{
+    display: flex;
+    align-items: first baseline;
+    text-align: left;
+    color:#363958;
+    font-weight: 300;
+    font-family: "roboto" , sans-serif;
+    font-size: 18px;
+}
+
+.buynow{
+
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 9px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    color: rgb(20, 115, 203 );
+    font-weight: bold;
+    border-left: 20px;
+    background-color: #3d4ff3;
+
+}
+button {
+    background-color: #3d4ff3;
+    border: none;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+.background {
+    margin-top: 100px;
+    background-color: #deedcd;
+    height: 2000px;
+    width: 100%;
+
+}
+.casualshoesh {
+    font-family: 'Bebas neue';
+    font-size: 48px;
+    color: #363958;
+    position: relative;
+    left: 140px;
+    top: 70px;
+
+}
+.casualshoes {
+    display: flex;
+    flex-flow: column;
+    margin-left: 25px;
+    background-color: aliceblue;
+    width: 410px;
+    height: 580px;
+
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-top: 70px;
+
+}
+.casualshoes img{
+
+    width: 380px;
+    background-color: #ececec;
+    border-radius: 15px;
+
+
+}
+.button2 {
+    display: block;
+    width: 100px;
+
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 9px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    color: rgb(20, 115, 203 );
+    font-weight: 20px;
+    background-color: #3d4ff3;
+
+}
+
+.nikeshoe {
+    display: flex;
+    font-family: 'roboto',sans-serif;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #363958;
+    text-transform: capitalize;
+    align-self: first baseline;
+    padding-left:25px ;
+    margin-top: 10px;
+
+}
+.aboutnike {
+    font-family: 'roboto' ,sans-serif;
+
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    justify-self: first baseline;
+    padding-right: 13px;
+
+}
+.highlight {
+    display: flex;
+
+}
+.price{
+    display: flex;
+    gap: 170px;
+    padding-bottom: 20px;
+
+}
+.dollar {
+    font-family:'roboto', sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ff8367;
+
+}
+#casualshoes{
+    display: flex;
+    justify-content: center;
+
+
+}
+.formalshoes{
+     
+    display: flex;
+    flex-flow: column;
+    margin-left: 25px;
+    background-color: rgb(r);
+}
+
     
 
     
